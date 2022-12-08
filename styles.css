@@ -33,10 +33,12 @@ body {
     font-size: 20px;
   }
 
+
   #logo {
     width: 200px;
     left: 30px;
     position: absolute;
+    margin-top: 45px;
     top: 0px;
     color: #f05537;
     font-size: 50px;
@@ -101,6 +103,16 @@ body {
     box-shadow: 5px 5px 5px gray;
   }
 
+  .tabbed-nav__link i {
+    padding: 3px;
+  }
+
+  #search {
+    background-image: url('http://i47.tinypic.com/r02vbq.png');
+    color: gray;
+    padding-left: 8px;
+  }
+
   .boards__container {
     display: flex;
     flex-flow: row wrap;
@@ -159,7 +171,7 @@ body {
     justify-content: center;
   }
 
-  .see-more p {
+  .see-more button {
     width: fit-content;
     padding: 20px;
     margin-top: 60px;
@@ -167,7 +179,7 @@ body {
     padding-right: 120px;
     color: #6f7277;
     background-color: white;
-    border: 2px solid #727985;
+    border: 1px solid #727985;
     box-shadow: 5px 5px 5px gray;
 
   }
@@ -197,16 +209,16 @@ body {
     justify-content: flex-end;
     margin-top: 100px;
     padding: 20px;
-    background-color: rgb(42, 3, 42);
+    background-color: #1e0a3c;
   }
 
   .footer p {
     padding-right: 40px;
-    color: white;
+    color: #FFFFFF;
   }
 
   .header-nav__button#search > input {
-    padding: 15px;
+    padding: 20px;
     padding-right: 85px;
     border: #6f7287;
     box-shadow: 5px 5px 5px gray;
